@@ -102,7 +102,7 @@ export default function Exhibitions() {
             </a>
           </div>
         </section>
-        <section className={styles.section}>
+        {/* <section className={styles.section}>
           <a
             href="https://arium.xyz/spaces/erotika"
             target="_blank"
@@ -139,7 +139,7 @@ export default function Exhibitions() {
               <span>view the exhbition</span>
             </a>
           </div>
-        </section>
+        </section> */}
         <section className={styles.section}>
           <h3 className={styles.displayhead}>Sales</h3>
           <ul style={{ listStyle: "none" }}>
@@ -176,17 +176,16 @@ export default function Exhibitions() {
             </li>
           </ul>
         </section>
-        {/* <section className={styles.section}>
+        <section style={{ paddingTop: 50 }}>
           <div className={""}>
-            <h3 className={styles.displayhead}>Follow us</h3>
             <ul className={styles.listreset}>
               <li>
                 <a
                   className={styles.svglink}
                   href="https://www.instagram.com/clit_splash/"
                   target="_blank"
-                  rel="noopener noreferrer noopener noreferrer"
-                  title="go to social in new tab">
+                  rel="noopener noreferrer"
+                  title="go to clitsplash instagram in new tab">
                   <svg className={styles.socialicon} version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
                     width="112px" height="112px" viewBox="0 188 112 112" enableBackground="new 0 188 112 112">
                     <path fill="currentColor" d="M56,198.2c14.9,0,16.7,0.1,22.6,0.3c5.5,0.2,8.4,1.2,10.4,1.9c2.6,1,4.5,2.2,6.4,4.2c2,2,3.2,3.8,4.2,6.4
@@ -210,8 +209,8 @@ export default function Exhibitions() {
                   className={styles.svglink}
                   href="https://mobile.twitter.com/ClitSplash"
                   target="_blank"
-                  rel="noopener noreferrer noopener noreferrer"
-                  title="go to social in new tab">
+                  rel="noopener noreferrer"
+                  title="go to clitsplash twitter in new tab">
                   <svg className={styles.socialicon} version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
                     viewBox="0 0 83.2 83.4" enableBackground="new 0 0 83.2 83.4">
                     <path fill="currentColor" d="M81.8,16.8c-1.4,2.2-3.1,4.1-5,5.9C76,23.5,75,24.2,74.2,25c-0.2,0.2-0.4,0.5-0.4,0.8c0.3,11-2.9,21-9.3,29.9
@@ -221,19 +220,41 @@ export default function Exhibitions() {
 			c-0.1-1.1-0.2-2.1-0.3-3c-0.2-3.7,0.7-7.1,2.9-10.1c3.1-4.4,7.4-6.9,12.8-7.2c4.6-0.3,8.7,1.2,12.1,4.4c0.6,0.6,1.2,0.7,2,0.5
 			c3-0.7,5.9-1.8,8.6-3.3c0.2-0.1,0.4-0.2,0.8-0.4c-1.3,3.9-3.7,6.8-6.9,9C76,18.8,78.9,18,81.8,16.8z"/>
                   </svg>
-
+                </a>
+              </li>
+              <li>
+                <a
+                  className={`${styles.svglink} ${styles.svglinklg}`}
+                  href="https://knownorigin.io/clitsplash"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title="go to clitsplash knownorigin profile in new tab">
+                  <KnownOrigin />
+                </a>
+              </li>
+              <li>
+                <a
+                  className={`${styles.svglink} ${styles.svglinklg}`}
+                  href="https://opensea.io/ClitSplash"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title="go to clitsplash opensea profile in new tab">
+                  <OpenSea />
+                </a>
+              </li>
+              <li>
+                <a
+                  className={`${styles.svglink} ${styles.svglinklg}`}
+                  href="https://foundation.app/@clitsplash"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title="go to clitsplash foundation in new tab">
+                  <Foundation />
                 </a>
               </li>
             </ul>
           </div>
-        </section> */}
-        {/* <section className={styles.section}>
-
-          <h3 className={styles.displayhead}>About Clitsplash</h3>
-          <div className={styles.content}>
-            <p className={styles.body}>ClitSplash is an all female collective born in Cuba that sources and curates crypto art &amp; culture. We believe in equal opportunities and representation for all genders, and therefore we focus on featuring women artists, trans artists and artists from other minorities. As we seek to curate quality art NFTs exhibitions, we advocate their proliferation within the metaverse.</p>
-          </div>
-        </section> */}
+        </section>
 
       </main>
 

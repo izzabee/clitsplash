@@ -10,8 +10,8 @@
 
   --nav-height: 50px;
 
-  --size-head: 40px;
-  --line-head: 48px;
+  --size-head: 28px;
+  --line-head: 40px;
   --size-subhead: 24px;
   --line-subhead: 32px;
   --size-body: 16px;
@@ -20,6 +20,8 @@
 
 @media (min-width: 768px) {
   :root {
+    --size-head: 40px;
+    --line-head: 48px;
     --size-subhead: 32px;
     --line-subhead: 40px;
   }

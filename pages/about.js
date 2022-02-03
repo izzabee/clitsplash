@@ -40,7 +40,7 @@ export default function About() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>ClitSplash</title>
+        <title>ClitSplash | About</title>
         <meta name="description" content="ClitSplash is an all female collective born in Cuba that sources and curates crypto art, NFTs & culture." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -60,7 +60,6 @@ export default function About() {
         <header className={styles.logohead}>
           <h1 className={styles.logo}>
             About
-            ClitSplash
           </h1>
         </header>
 
@@ -154,20 +153,39 @@ export default function About() {
           </div>
         </section>
 
-        <section className={styles.section}>
+        <section className={`${styles.section} ${styles.bgPurple}`}>
           <h2 className={styles.displayhead}>Get in Touch</h2>
+          <div className={styles.content}>
+            <p className={styles.body}>
+              For any inquiry regarding crypto art consultancy or advising for collectors, platforms, institutions, galleries and artists:
+              &nbsp;  <a href="mailto:clit.splash@gmail.com" title="email clit.splash@gmail.com" target="_blank" rel="noopener noreferrer" className={styles.link}>clit.splash@gmail.com</a>.
+            </p>
+          </div>
         </section>
 
-        <section className={styles.section}>
+        <section className={`${styles.section} ${styles.bgPurple}`}>
+          <h2 className={styles.displayhead}>Get Involved</h2>
+          <div className={styles.content}>
+            <p className={styles.body}>
+              If you are here, we deeply appreciate your will to support us or collaborate with us!
+            </p>
+            <ul className={styles.body}>
+              <li>Do you wish to start collecting crypto art but do not know where to start or which artist/project to invest on? Get in touch, we will be more than happy to assist you:  <a href="mailto:clit.splash@gmail.com" title="email clit.splash@gmail.com" target="_blank" rel="noopener noreferrer" className={styles.link}>clit.splash@gmail.com</a></li>
+              <li>Do you wish to donate to ClitSplash? Support ClitSplash by donating to us Eth! Transfer to our public address: ClitSplash.eth</li>
+              <li>Do you wish to intern at ClitSplash or collaborate with us? Get in touch, we will surely find a way to get you involved:  <a href="mailto:clit.splash@gmail.com" title="email clit.splash@gmail.com" target="_blank" rel="noopener noreferrer" className={styles.link}>clit.splash@gmail.com</a> </li>
+            </ul>
+          </div>
+        </section>
+
+        <section style={{ paddingTop: 50 }}>
           <div className={""}>
-            <h3 className={styles.displayhead}>Follow us</h3>
             <ul className={styles.listreset}>
               <li>
                 <a
                   className={styles.svglink}
                   href="https://www.instagram.com/clit_splash/"
                   target="_blank"
-                  rel="noopener noreferrer noopener noreferrer"
+                  rel="noopener noreferrer"
                   title="go to clitsplash instagram in new tab">
                   <svg className={styles.socialicon} version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
                     width="112px" height="112px" viewBox="0 188 112 112" enableBackground="new 0 188 112 112">
@@ -192,7 +210,7 @@ export default function About() {
                   className={styles.svglink}
                   href="https://mobile.twitter.com/ClitSplash"
                   target="_blank"
-                  rel="noopener noreferrer noopener noreferrer"
+                  rel="noopener noreferrer"
                   title="go to clitsplash twitter in new tab">
                   <svg className={styles.socialicon} version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
                     viewBox="0 0 83.2 83.4" enableBackground="new 0 0 83.2 83.4">
@@ -203,16 +221,14 @@ export default function About() {
 			c-0.1-1.1-0.2-2.1-0.3-3c-0.2-3.7,0.7-7.1,2.9-10.1c3.1-4.4,7.4-6.9,12.8-7.2c4.6-0.3,8.7,1.2,12.1,4.4c0.6,0.6,1.2,0.7,2,0.5
 			c3-0.7,5.9-1.8,8.6-3.3c0.2-0.1,0.4-0.2,0.8-0.4c-1.3,3.9-3.7,6.8-6.9,9C76,18.8,78.9,18,81.8,16.8z"/>
                   </svg>
-
                 </a>
               </li>
               <li>
-
                 <a
                   className={`${styles.svglink} ${styles.svglinklg}`}
                   href="https://knownorigin.io/clitsplash"
                   target="_blank"
-                  rel="noopener noreferrer noopener noreferrer"
+                  rel="noopener noreferrer"
                   title="go to clitsplash knownorigin profile in new tab">
                   <KnownOrigin />
                 </a>
@@ -222,7 +238,7 @@ export default function About() {
                   className={`${styles.svglink} ${styles.svglinklg}`}
                   href="https://opensea.io/ClitSplash"
                   target="_blank"
-                  rel="noopener noreferrer noopener noreferrer"
+                  rel="noopener noreferrer"
                   title="go to clitsplash opensea profile in new tab">
                   <OpenSea />
                 </a>
@@ -233,18 +249,12 @@ export default function About() {
                   className={`${styles.svglink} ${styles.svglinklg}`}
                   href="https://foundation.app/@clitsplash"
                   target="_blank"
-                  rel="noopener noreferrer noopener noreferrer"
+                  rel="noopener noreferrer"
                   title="go to clitsplash foundation in new tab">
                   <Foundation />
                 </a>
               </li>
             </ul>
-          </div>
-        </section>
-        <section className={styles.section}>
-          <h3 className={styles.displayhead}>About Clitsplash</h3>
-          <div className={styles.content}>
-            <p className={styles.body}>ClitSplash is an all female collective born in Cuba that sources and curates crypto art & culture. We believe in equal opportunities and representation for all genders, and therefore we focus on featuring women artists, trans artists and artists from other minorities. As we seek to curate quality art NFTs exhibitions, we advocate their proliferation within the metaverse.</p>
           </div>
         </section>
       </main>
