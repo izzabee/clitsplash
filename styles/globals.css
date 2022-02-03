@@ -12,10 +12,17 @@
 
   --size-head: 40px;
   --line-head: 48px;
-  --size-subhead: 32px;
-  --line-subhead: 40px;
+  --size-subhead: 24px;
+  --line-subhead: 32px;
   --size-body: 16px;
   --line-body: 24px;
+}
+
+@media (min-width: 768px) {
+  :root {
+    --size-subhead: 32px;
+    --line-subhead: 40px;
+  }
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700;900&family=Open+Sans:wght@600&display=swap');

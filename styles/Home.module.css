@@ -1,6 +1,11 @@
 .section {
-  min-height: 100vh;
   padding: calc(var(--nav-height) * 3) 0;
+}
+
+@media (min-width: 768px) {
+  .section {
+    min-height: 100vh;
+  }
 }
 
 .section:first-of-type {
@@ -116,6 +121,18 @@
   font-style: italic;
 }
 
+.cta {
+  font-size: 6vw;
+  font-weight: 900;
+  display: block;
+  font-style: italic;
+  transition: color 0.3s;;
+}
+
+a.cta:hover {
+  color: var(--light-pink);
+}
+
 .heading {
   /* font-family: 'Inter', sans-serif; */
   font-weight: 700;
@@ -145,13 +162,14 @@
 }
 
 .list {
+  background-color: var(--light-pink);
   align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding: 70px 0 20px;
   transition: all 0.3s;
   transform: translateY(-100%);
 }
@@ -176,19 +194,34 @@
   margin: 0;
   padding: 0;
 
-  display: flex;
-  justify-content: flex-start;
+  
+  justify-content: space-around;
   align-items: center;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* grid-gap: 3rem; */
+  grid-row-gap: 3rem;
 }
+
 
 .listreset > a,
 .listreset li {
-  margin-right: 5rem
+  margin: 0 1rem;
 }
 
-div.listreset {
-  margin-top: 5rem;
-  justify-content: flex-end;
+
+@media(min-width: 768px) {
+ .listreset {
+  display: flex;
+   flex-direction: row;
+   grid-gap: 0;
+ } 
+ 
+ .listreset > a,
+ .listreset li {
+   margin: 0 2.5rem;
+ }
 }
 
 /* .container {
@@ -223,20 +256,6 @@ div.listreset {
 /* NAVIGATION */
 
 .burger {
-  /* position: fixed;
-  top: 50px;
-  right: 50px;
-  background-color: transparent;
-  border: 0;
-  box-shadow: none;
-  width: 30px;
-  height: 18px;
-
-  border-top: 5px solid currentColor;
-  border-bottom: 5px solid currentColor;
-  z-index: 9;
-  display: block;
-  transition: all 0.3s; */
 
   /* background-color: transparent;
   border: 0;
@@ -272,10 +291,24 @@ div.listreset {
   height: 50px;
 }
 
-.bgBlack {
-  background-color: var(--black);
-  color: var(--white);
+.footoerlogo {
   display: block;
-  position: relative;
+  max-width: 350px;
+  margin: 0 auto;
+}
+
+.bio {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 50px;
+  align-items: flex-end;
+  max-width: 85%;
+  margin: 150px 0 50px;
+  margin-left: 4rem;
+}
+
+.bio figure {
   width: 100%;
+  display: block;
+  margin: 0;
 }
