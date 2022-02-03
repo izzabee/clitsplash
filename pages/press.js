@@ -6,7 +6,6 @@ import styles from '../styles/Home.module.css'
 export default function Press() {
   return (
     <>
-
       <header className={styles.logohead}>
         <h1 className={styles.logo}>Press</h1>
       </header>
@@ -18,7 +17,7 @@ export default function Press() {
           title="email clit.splash@gmail.com"
           target="_blank"
           rel="noopener noreferrer">
-          <span>Request Press kit</span>
+          <span>{"Request Press kit"}</span>
         </a>
         <div className={styles.content}>
           <p className={styles.body}>Please include the following in your email:</p>

@@ -9,7 +9,7 @@ export default function Exhibitions() {
   return (
     <>
       <header className={styles.logohead}>
-        <h1 className={styles.logo}>Exhibitions</h1>
+        <h1 className={styles.logosm}>Exhibitions</h1>
       </header>
 
       <section className={styles.section}>
@@ -88,7 +88,7 @@ export default function Exhibitions() {
             </a>
           </div>
         </section> */}
-      <section className={styles.section}>
+      {/* <section className={styles.section}>
         <h3 className={styles.displayhead}>Sales</h3>
         <ul style={{ listStyle: "none" }}>
           <li>
@@ -123,7 +123,7 @@ export default function Exhibitions() {
               </a>
           </li>
         </ul>
-      </section>
+      </section> */}
       <section style={{ paddingTop: 50 }}>
         <div className={""}>
           <ul className={styles.listreset}>

@@ -35,7 +35,7 @@ export default function Home() {
       </section>
       <section className={styles.section}>
         <div className={""}>
-          <h3 className={styles.displayhead}>Follow us</h3>
+          {/* <h3 className={styles.displayhead}>Follow us</h3> */}
           <ul className={styles.listreset}>
             <li>
               <a
