@@ -21,7 +21,9 @@
 } */
 
 .nav {
-  position: sticky;
+  position: fixed;
+  left: 0;
+  right: 0;
   top: 0;
   height: 30px;
   z-index: 2;
@@ -306,7 +308,13 @@ a.cta:hover {
   height: 50px;
 }
 
-.footoerlogo {
+.footer a {
+  display: block;
+  max-width: 350px;
+  margin: 0 auto;
+}
+
+.footerlogo {
   display: block;
   max-width: 350px;
   margin: 0 auto;
