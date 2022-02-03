@@ -109,7 +109,7 @@ export default function About() {
         <div className={styles.content}>
           <p className={styles.body}>
             For any inquiry regarding crypto art consultancy or advising for collectors, platforms, institutions, galleries and artists:
-              &nbsp;  <a href="mailto:clit.splash@gmail.com" title="email clit.splash@gmail.com" target="_blank" rel="noopener noreferrer" className={styles.link}>clit.splash@gmail.com</a>.
+              &nbsp;  <a href="mailto:info@clitsplash.com" title="email info@clitsplash.com" target="_blank" rel="noopener noreferrer" className={styles.link}>info@clitsplash.com</a>.
             </p>
         </div>
       </section>
@@ -121,9 +121,9 @@ export default function About() {
             If you are here, we deeply appreciate your will to support us or collaborate with us!
             </p>
           <ul className={styles.body}>
-            <li>Do you wish to start collecting crypto art but do not know where to start or which artist/project to invest on? Get in touch, we will be more than happy to assist you:  <a href="mailto:clit.splash@gmail.com" title="email clit.splash@gmail.com" target="_blank" rel="noopener noreferrer" className={styles.link}>clit.splash@gmail.com</a></li>
+            <li>Do you wish to start collecting crypto art but do not know where to start or which artist/project to invest on? Get in touch, we will be more than happy to assist you:  <a href="mailto:info@clitsplash.com" title="email info@clitsplash.com" target="_blank" rel="noopener noreferrer" className={styles.link}>info@clitsplash.com</a></li>
             <li>Do you wish to donate to ClitSplash? Support ClitSplash by donating to us Eth! Transfer to our public address: ClitSplash.eth</li>
-            <li>Do you wish to intern at ClitSplash or collaborate with us? Get in touch, we will surely find a way to get you involved:  <a href="mailto:clit.splash@gmail.com" title="email clit.splash@gmail.com" target="_blank" rel="noopener noreferrer" className={styles.link}>clit.splash@gmail.com</a> </li>
+            <li>Do you wish to intern at ClitSplash or collaborate with us? Get in touch, we will surely find a way to get you involved:  <a href="mailto:info@clitsplash.com" title="email info@clitsplash.com" target="_blank" rel="noopener noreferrer" className={styles.link}>info@clitsplash.com</a> </li>
           </ul>
         </div>
       </section>

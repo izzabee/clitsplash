@@ -88,42 +88,6 @@ export default function Exhibitions() {
             </a>
           </div>
         </section> */}
-      {/* <section className={styles.section}>
-        <h3 className={styles.displayhead}>Sales</h3>
-        <ul style={{ listStyle: "none" }}>
-          <li>
-
-            <a
-              className={styles.cta}
-              href="https://knownorigin.io/clitsplash"
-              target="_blank"
-              rel="noopener noreferrer noopener noreferrer"
-              title="go to social in new tab">
-              KnownOrigin
-              </a>
-          </li>
-          <li>
-            <a
-              className={styles.cta}
-              href="https://opensea.io/ClitSplash"
-              target="_blank"
-              rel="noopener noreferrer noopener noreferrer"
-              title="go to social in new tab">
-              OpenSea
-              </a>
-          </li>
-          <li>
-            <a
-              className={styles.cta}
-              href="https://foundation.app/@clitsplash"
-              target="_blank"
-              rel="noopener noreferrer noopener noreferrer"
-              title="go to social in new tab">
-              Foundation
-              </a>
-          </li>
-        </ul>
-      </section> */}
       <section style={{ paddingTop: 50 }}>
         <div className={""}>
           <ul className={styles.listreset}>

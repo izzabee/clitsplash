@@ -13,8 +13,8 @@ export default function Press() {
       <section className={styles.section}>
         <a
           className={styles.cta}
-          href="mailto:clit.splash@gmail.com"
-          title="email clit.splash@gmail.com"
+          href="mailto:info@clitsplash.com"
+          title="email info@clitsplash.com"
           target="_blank"
           rel="noopener noreferrer">
           <span>{"Request Press kit"}</span>
