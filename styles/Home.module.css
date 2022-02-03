@@ -29,6 +29,21 @@
   z-index: 2;
 }
 
+.navLogo {
+  position: fixed;
+  left: 12px;
+  top: 20px;
+  display: block;
+  width: 50px;
+  z-index: 9;
+}
+
+@media (min-width: 768px) {
+  .navLogo {
+    width: 70px;
+  }
+}
+
 .logoimg {
   max-width: 33%;
   margin: 50vh auto;
@@ -100,9 +115,16 @@ a.heading:hover,
   /* height: auto;
   width: 100%; */
 
-  max-width: 300px;
+  
+  max-width: 80px;
   height: auto;
   width: 100%;
+}
+
+@media (min-width: 768px) {
+  .svglinklg svg {
+    max-width: 350px;
+  }
 }
 
 .svglink svg * {
@@ -283,19 +305,15 @@ a.cta:hover {
 
   /* background-color: transparent;
   border: 0;
-  
-  
   box-shadow: none;
   display: block;
-  
   position: fixed;
   right: 25px;
   top: 25px;
   transition: all 0.3s;
-  
   z-index: 9; */
 
-  background-color: transparent;
+  background-color: var(--light-pink);
   border: 0;
   border-bottom: 9px solid var(--purple);
   border-top: 9px solid var(--purple);
@@ -315,7 +333,6 @@ a.cta:hover {
     border-bottom: 18px solid var(--purple);
     border-top: 18px solid var(--purple);
     height: 46px;
-    top: 20px;
     width: 70px;
   }
 }

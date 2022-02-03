@@ -14,7 +14,7 @@
   --line-head: 40px;
   --size-subhead: 24px;
   --line-subhead: 32px;
-  --size-body: 16px;
+  --size-body: 14px;
   --line-body: 24px;
 }
 
@@ -24,6 +24,8 @@
     --line-head: 48px;
     --size-subhead: 32px;
     --line-subhead: 40px;
+    --size-body: 16px;
+    --line-body: 24px;
   }
 }
 

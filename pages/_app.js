@@ -26,6 +26,10 @@ const data = [
     title: "About",
     id: "/about",
   },
+  {
+    title: "Get in touch",
+    id: "/contact"
+  }
 ];
 
 
@@ -73,6 +77,13 @@ function MyApp({ Component, pageProps }) {
 
     <main className={styles.main}>
       <nav className={styles.nav}>
+        <a href={"https://clitsplash.art"} className={styles.navLogo}>
+          <Image
+            src="/favicon.png"
+            width={1042}
+            height={1042}
+          />
+        </a>
         <button className={styles.burger} onClick={() => { setOpen(!open) }} aria-label="Nav Toggle Button" />
         <ul className={`${styles.list} ${open ? "open" : ""}`}>
           {data.map(item => {
