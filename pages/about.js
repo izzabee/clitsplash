@@ -39,6 +39,7 @@ export default function About() {
           <div className={`${styles.bio}`}>
             <figure>
               <Image
+                alt="headshot of Gladys"
                 src="/static/GladysGarrote.jpg"
                 width={1365}
                 height={2003}
@@ -59,6 +60,7 @@ export default function About() {
 
             <figure>
               <Image
+                alt="headshot of Luisa"
                 src="/static/LuisaAusenda.jpg"
                 width={3768}
                 height={5652}
@@ -81,6 +83,7 @@ export default function About() {
           <div className={`${styles.bio}`}>
             <figure>
               <Image
+                alt="headshot of Federica"
                 src="/static/FedericaPogliani.jpg"
                 width={1244}
                 height={1659}

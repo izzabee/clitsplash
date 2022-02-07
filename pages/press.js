@@ -238,7 +238,7 @@ export default function Press() {
               href="https://www.youtube.com/watch?v=3hHleZi0DAE"
               title="open press in new tab"
               target="_blank"
-              rel="noopener noreferrer">Round Table: "Collecting vs Trading in Digital Art"</a>
+              rel="noopener noreferrer">Round Table: &quot;Collecting vs Trading in Digital Art&quot;</a>
             <p className={styles.body}>Bridge to Metaverse opening recaption - Webinar with Matt Hall (Larva Labs, Cryptopunks creator), Alex Salnikov (Rarible) John Crain (Superrare) and Luisa Ausenda (Gallery Continua/ClitSplash)</p>
           </li>
           <li className={""}>

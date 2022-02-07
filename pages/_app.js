@@ -82,6 +82,7 @@ function MyApp({ Component, pageProps }) {
             src="/favicon.png"
             width={1042}
             height={1042}
+            alt=""
           />
         </a>
         <button className={styles.burger} onClick={() => { setOpen(!open) }} aria-label="Nav Toggle Button" />
@@ -103,6 +104,7 @@ function MyApp({ Component, pageProps }) {
           src="/static/ClitSplash_logo.png"
           width={1042}
           height={1042}
+          alt="ClitSplash logo"
         />
       </a>
     </footer>
