@@ -37,7 +37,7 @@ export default function Home() {
         </div>
       </section>
       <section className={styles.section}>
-        <h3 className={styles.displayhead}>About Clitsplash</h3>
+        <h3 className={styles.displayhead}>About ClitSplash</h3>
         <div className={styles.content}>
           <p className={styles.body}>ClitSplash is an all female collective born in Cuba that sources and curates crypto art & culture. We believe in equal opportunities and representation for all genders, and therefore we focus on featuring women artists, trans artists and artists from other minorities. As we seek to curate quality art NFTs exhibitions, we advocate their proliferation within the metaverse.</p>
         </div>

@@ -15,6 +15,9 @@
   min-height: 0;
 }
 
+.section:first-of-type a.cta:hover {
+  color: var(--light-pink);
+}
 /* .section img {
   display: block;
   width: 100%;
@@ -27,6 +30,10 @@
   top: 0;
   height: 30px;
   z-index: 2;
+}
+
+.nav .link:after {
+  display: none;
 }
 
 .navLogo {
@@ -81,22 +88,28 @@
   transition: all 0.3s;
 }
 
+.underline {
+  text-decoration: underline;
+}
+
 .link svg {
   width: 100%;
   height: auto;
 }
 
+.cta:after,
 .link:after {
-  background-color: var(--black);
+  background-color: currentColor;
   content: "";
-  height: 2px;
+  height: 8px;
   left: 0;
   position: absolute;
-  top: 50%;
+  right: 0;
+  top: calc(100% + 5px);
   transition: width 0.3s;
-  width: 0;
 }
 /* 
+
 .link:hover:after {
   width: 100%;
 } */
@@ -132,7 +145,7 @@ a.heading:hover,
 }
 
 .svglink:hover svg * {
-  fill: var(--black)
+  fill: var(--red)
 }
 
 .displayhead {
@@ -156,15 +169,16 @@ a.heading:hover,
 }
 
 .cta {
-  font-size: 6vw;
+  font-size: 4vw;
   font-weight: 900;
-  display: block;
+  display: inline-block;
   font-style: italic;
+  position: relative;
   transition: color 0.3s;;
 }
 
 a.cta:hover {
-  color: var(--light-pink);
+  color: var(--red);
 }
 
 .heading {
@@ -192,6 +206,14 @@ a.cta:hover {
 .content {
   margin: 2rem 0;
   margin-left: 2rem;
+}
+
+ul.content {
+  list-style: none;
+}
+
+ul.content li {
+  margin-bottom: 2rem;
 }
 
 @media(min-width: 768px) {
