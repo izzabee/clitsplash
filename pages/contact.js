@@ -29,7 +29,7 @@ export default function Contact() {
           <ul className={`${styles.content}`}>
             <li className={""}>
               <a
-                href="mailto:info@clitsplash.com"
+                href="mailto:info@clitsplash.com?subject=Interested in collecting cyrpto art"
                 title="email info@clitsplash.com"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -41,7 +41,7 @@ export default function Contact() {
 
             <li className={""}>
               <a
-                href="mailto:info@clitsplash.com"
+                href="mailto:info@clitsplash.com?subject=Donate to ClitSplash"
                 title="email info@clitsplash.com"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -53,7 +53,7 @@ export default function Contact() {
 
             <li className={""}>
               <a
-                href="mailto:info@clitsplash.com"
+                href="mailto:info@clitsplash.com?subject=Internsted in interning at ClitSplash"
                 title="email info@clitsplash.com"
                 target="_blank"
                 rel="noopener noreferrer"
