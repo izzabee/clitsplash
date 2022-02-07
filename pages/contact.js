@@ -26,10 +26,43 @@ export default function Contact() {
           <p className={styles.body}>
             If you are here, we deeply appreciate your will to support us or collaborate with us!
             </p>
-          <ul className={styles.body}>
-            <li>Do you wish to start collecting crypto art but do not know where to start or which artist/project to invest on? Get in touch, we will be more than happy to assist you:  <a href="mailto:info@clitsplash.com" title="email info@clitsplash.com" target="_blank" rel="noopener noreferrer" className={styles.link}>info@clitsplash.com</a></li>
-            <li>Do you wish to donate to ClitSplash? Support ClitSplash by donating to us Eth! Transfer to our public address: ClitSplash.eth</li>
-            <li>Do you wish to intern at ClitSplash or collaborate with us? Get in touch, we will surely find a way to get you involved:  <a href="mailto:info@clitsplash.com" title="email info@clitsplash.com" target="_blank" rel="noopener noreferrer" className={styles.link}>info@clitsplash.com</a> </li>
+          <ul className={`${styles.content}`}>
+            <li className={""}>
+              <a
+                href="mailto:info@clitsplash.com"
+                title="email info@clitsplash.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={`${styles.cta}`}>
+                Start collecting crypto art
+                </a>
+              <p className={styles.body}>Do you wish to start collecting crypto art but do not know where to start or which artist/project to invest on? Get in touch, we will be more than happy to assist you:</p>
+            </li>
+
+            <li className={""}>
+              <a
+                href="mailto:info@clitsplash.com"
+                title="email info@clitsplash.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={`${styles.cta}`}>
+                Donate to ClitSplash
+                </a>
+              <p className={styles.body}>Do you wish to donate to ClitSplash? Support ClitSplash by donating to us Eth! Transfer to our public address: ClitSplash.eth</p>
+            </li>
+
+            <li className={""}>
+              <a
+                href="mailto:info@clitsplash.com"
+                title="email info@clitsplash.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={`${styles.cta}`}>
+                Intern at ClitSplash
+                </a>
+              <p className={styles.body}>Do you wish to intern at ClitSplash or collaborate with us? Get in touch, we will surely find a way to get you involved:</p>
+            </li>
+
           </ul>
         </div>
       </section>

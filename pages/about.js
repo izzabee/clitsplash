@@ -104,17 +104,6 @@ export default function About() {
         </div>
       </section>
 
-      <section className={`${styles.section} ${styles.bgPurple}`}>
-        <h2 className={styles.displayhead}>Get in Touch</h2>
-        <div className={styles.content}>
-          <p className={styles.body}>
-            For any inquiry regarding crypto art consultancy or advising for collectors, platforms, institutions, galleries and artists:
-              &nbsp;  <a href="mailto:info@clitsplash.com" title="email info@clitsplash.com" target="_blank" rel="noopener noreferrer" className={styles.link}>info@clitsplash.com</a>.
-            </p>
-        </div>
-      </section>
-
-
       <section style={{ paddingTop: 50 }}>
         <div className={""}>
           <Social styles={styles} />
