@@ -14,7 +14,7 @@ export default function Contact() {
         <h2 className={styles.displayhead}>Get in Touch</h2>
         <div className={styles.content}>
           <p className={styles.body}>
-            For any inquiry regarding crypto art consultancy or advising for collectors, platforms, institutions, galleries and artists:
+            For any inquiry regarding digital art consultancy or advising for collectors, platforms, institutions, galleries and artists:
               &nbsp;  <a href="mailto:info@clitsplash.com" title="email info@clitsplash.com" target="_blank" rel="noopener noreferrer" className={styles.link}>info@clitsplash.com</a>.
             </p>
         </div>
@@ -34,9 +34,9 @@ export default function Contact() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className={`${styles.cta}`}>
-                Start collecting crypto art
+                Start collecting digital art
                 </a>
-              <p className={styles.body}>Do you wish to start collecting crypto art but do not know where to start or which artist/project to invest on? Get in touch, we will be more than happy to assist you:</p>
+              <p className={styles.body}>Do you wish to start collecting digital art but do not know where to start or which artist/project to invest on? Get in touch, we will be more than happy to assist you.</p>
             </li>
 
             <li className={""}>
@@ -60,7 +60,7 @@ export default function Contact() {
                 className={`${styles.cta}`}>
                 Intern at ClitSplash
                 </a>
-              <p className={styles.body}>Do you wish to intern at ClitSplash or collaborate with us? Get in touch, we will surely find a way to get you involved:</p>
+              <p className={styles.body}>Do you wish to intern at ClitSplash or collaborate with us? Get in touch, we will surely find a way to get you involved.</p>
             </li>
 
           </ul>

@@ -13,7 +13,7 @@ export default function Sales() {
 
       <section className={styles.section}>
         <ul style={{ listStyle: "none" }}>
-          <li className={styles.marginTop}>
+          {/* <li className={styles.marginTop}>
 
             <a
               className={styles.cta}
@@ -33,7 +33,7 @@ export default function Sales() {
               title="go to social in new tab">
               OpenSea
               </a>
-          </li>
+          </li> */}
           <li className={styles.marginTop}>
             <a
               className={styles.cta}

@@ -46,27 +46,6 @@ export default function Press() {
               rel="noopener noreferrer">Rialta Ediciones</a>
             <p className={styles.body}>(Latin America)</p>
           </li>
-
-          <li className={""}>
-            <a
-              className={`${styles.cta}`}
-              href="https://s3.eu-central-1.amazonaws.com/qurium/rialta.org/clitsplash-desafia-desde-cuba-la-mirada-masculina-con-erotika-una-muestra-de-arte-nft-en-miami-art-week-2021.html"
-              title="open press in new tab"
-              target="_blank"
-              rel="noopener noreferrer">Rialta Ediciones</a>
-            <p className={styles.body}>(Latin America)</p>
-          </li>
-
-          <li className={""}>
-            <a
-              className={`${styles.cta}`}
-              href="https://maria-rosalesgerpe.medium.com/clit-splash-women-transform-the-art-landscape-through-nfts-8a46fac0b437"
-              title="open press in new tab"
-              target="_blank"
-              rel="noopener noreferrer">Maria Rosales Gerpe&apos;s Personal blog</a>
-            <p className={styles.body}>(USA)</p>
-          </li>
-
           <li className={""}>
             <a
               className={`${styles.cta}`}
@@ -78,6 +57,36 @@ export default function Press() {
           </li>
 
           <li className={""}>
+            <a
+              className={`${styles.cta}`}
+              href="https://rialta.org/clitsplash-desafia-desde-cuba-la-mirada-masculina-con-erotika-una-muestra-de-arte-nft-en-miami-art-week-2021/?fbclid=IwAR0wP4ZpGwEoyWLZpmsQ4nZhIda-xE5VTYTDR0TTfdifGkHc8O4YG56nrQU"
+              title="open press in new tab"
+              target="_blank"
+              rel="noopener noreferrer">Rialta Ediciones</a>
+            <p className={styles.body}>(Latin America)</p>
+          </li>
+
+          <li className={""}>
+            <a
+              className={`${styles.cta}`}
+              href="https://www.redlion.news/article/7-lgbtq-collections-to-support-for-pride-month"
+              title="open press in new tab"
+              target="_blank"
+              rel="noopener noreferrer">Red Lion</a>
+            <p className={styles.body}>(USA)</p>
+          </li>
+
+          <li className={""}>
+            <a
+              className={`${styles.cta}`}
+              href="https://www.exibart.com/arte-contemporanea/curare-nel-metaverso-il-caso-di-erotika-tra-arte-femminismi-e-mercato/"
+              title="open press in new tab"
+              target="_blank"
+              rel="noopener noreferrer">Exibart</a>
+            <p className={styles.body}>(Europe)</p>
+          </li>
+
+          {/* <li className={""}>
             <a
               className={`${styles.cta}`}
               href="https://cuban.gallery/art-news/clit-splash-the-feminist-project-for-cuban-digital-artists/"
@@ -95,8 +104,8 @@ export default function Press() {
               target="_blank"
               rel="noopener noreferrer">Noticias cubanas</a>
             <p className={styles.body}>(Miami)</p>
-          </li>
-
+          </li> */}
+          {/*
           <li className={""}>
             <a
               className={`${styles.cta}`}
@@ -105,8 +114,8 @@ export default function Press() {
               target="_blank"
               rel="noopener noreferrer">Latinus</a>
             <p className={styles.body}>(Latin America)</p>
-          </li>
-
+          </li> */}
+          {/*
           <li className={""}>
             <a
               className={`${styles.cta}`}
@@ -115,75 +124,74 @@ export default function Press() {
               target="_blank"
               rel="noopener noreferrer">Tra i Leoni</a>
             <p className={styles.body}>(Bocconi University blog – Italy, interwiew to co-founder Luisa Ausenda)</p>
-          </li>
+          </li> */}
         </ul>
       </section>
 
       <section className={styles.section}>
         <h3 className={styles.displayhead}>Clippings mentioning us</h3>
-        <div className={styles.content}>
-          <ul className={`${styles.content}`}>
-            <li className={""}>
-              <a
-                className={`${styles.cta}`}
-                href="https://nftcuba.art/genesis/"
-                title="open press in new tab"
-                target="_blank"
-                rel="noopener noreferrer">Cuban art NFTs&apos; genesis</a>
-              <p className={styles.body}>(Havana-Miami)</p>
-            </li>
+        {/* <div className={styles.content}></div> */}
+        <ul className={`${styles.content}`}>
+          <li className={""}>
+            <a
+              className={`${styles.cta}`}
+              href="https://nftcuba.art/genesis/"
+              title="open press in new tab"
+              target="_blank"
+              rel="noopener noreferrer">Cuban art NFTs&apos; genesis</a>
+            <p className={styles.body}>(Havana-Miami)</p>
+          </li>
 
-            <li className={""}>
-              <a
-                className={`${styles.cta}`}
-                href="https://www.refinery29.com/en-us/2021/08/10520561/women-artists-nft-opportunities"
-                title="open press in new tab"
-                target="_blank"
-                rel="noopener noreferrer">Refinery29</a>
-              <p className={styles.body}>(USA)</p>
-            </li>
+          <li className={""}>
+            <a
+              className={`${styles.cta}`}
+              href="https://www.refinery29.com/en-us/2021/08/10520561/women-artists-nft-opportunities"
+              title="open press in new tab"
+              target="_blank"
+              rel="noopener noreferrer">Refinery29</a>
+            <p className={styles.body}>(USA)</p>
+          </li>
 
-            <li className={""}>
-              <a
-                className={`${styles.cta}`}
-                href="https://vistarmagazine.com/alejandra-glez-primera-artista-cubana-que-exhibe-nft-desde-un-drop/"
-                title="open press in new tab"
-                target="_blank"
-                rel="noopener noreferrer">Vistar magazine</a>
-              <p className={styles.body}>(Cuba)</p>
-            </li>
+          <li className={""}>
+            <a
+              className={`${styles.cta}`}
+              href="https://vistarmagazine.com/alejandra-glez-primera-artista-cubana-que-exhibe-nft-desde-un-drop/"
+              title="open press in new tab"
+              target="_blank"
+              rel="noopener noreferrer">Vistar magazine</a>
+            <p className={styles.body}>(Cuba)</p>
+          </li>
 
-            <li className={""}>
-              <a
-                className={`${styles.cta}`}
-                href="https://elnacional.com.do/el-talento-latino-se-abre-paso-en-el-criptoarte/"
-                title="open press in new tab"
-                target="_blank"
-                rel="noopener noreferrer">El Nacional</a>
-              <p className={styles.body}>(Spain)</p>
-            </li>
+          <li className={""}>
+            <a
+              className={`${styles.cta}`}
+              href="https://elnacional.com.do/el-talento-latino-se-abre-paso-en-el-criptoarte/"
+              title="open press in new tab"
+              target="_blank"
+              rel="noopener noreferrer">El Nacional</a>
+            <p className={styles.body}>(Spain)</p>
+          </li>
 
-            <li className={""}>
-              <a
-                className={`${styles.cta}`}
-                href="https://www.criptolite.com/opiniones/post-lite/cuba-y-las-criptomonedas-en-tiempos-de-pandemia/"
-                title="open press in new tab"
-                target="_blank"
-                rel="noopener noreferrer">Criptolite</a>
-              <p className={styles.body}>(US and Latin America)</p>
-            </li>
+          <li className={""}>
+            <a
+              className={`${styles.cta}`}
+              href="https://www.criptolite.com/opiniones/post-lite/cuba-y-las-criptomonedas-en-tiempos-de-pandemia/"
+              title="open press in new tab"
+              target="_blank"
+              rel="noopener noreferrer">Criptolite</a>
+            <p className={styles.body}>(US and Latin America)</p>
+          </li>
 
-            <li className={""}>
-              <a
-                className={`${styles.cta}`}
-                href="https://cubancryptoart.com/la-mujer-en-el-universo-nft-3-cubanas-criptoartistas/"
-                title="open press in new tab"
-                target="_blank"
-                rel="noopener noreferrer">MOCCA</a>
-              <p className={styles.body}>(Museo del Cripto Arte Cubano – Cuba)</p>
-            </li>
-          </ul>
-        </div>
+          <li className={""}>
+            <a
+              className={`${styles.cta}`}
+              href="https://cubancryptoart.com/la-mujer-en-el-universo-nft-3-cubanas-criptoartistas/"
+              title="open press in new tab"
+              target="_blank"
+              rel="noopener noreferrer">MOCCA</a>
+            <p className={styles.body}>(Museo del Cripto Arte Cubano – Cuba)</p>
+          </li>
+        </ul>
       </section>
 
       <section className={styles.section}>

@@ -97,7 +97,7 @@
   height: auto;
 }
 
-.cta:after,
+/* .cta:after, */
 .link:after {
   background-color: currentColor;
   content: "";
@@ -108,7 +108,7 @@
   top: calc(100% + 5px);
   transition: width 0.3s;
 }
-/* 
+/*
 
 .link:hover:after {
   width: 100%;
@@ -128,7 +128,7 @@ a.heading:hover,
   /* height: auto;
   width: 100%; */
 
-  
+
   max-width: 80px;
   height: auto;
   width: 100%;
@@ -154,7 +154,7 @@ a.heading:hover,
   font-size: 13vw;
   line-height: 12vw;
   font-weight: 900;
-  margin: 2rem 0 3rem;
+  margin: 2rem 0 3rem 12px;
   max-width: 66%;
 }
 
@@ -169,12 +169,20 @@ a.heading:hover,
 }
 
 .cta {
-  font-size: 4vw;
+  border-bottom: 4px solid;
+  font-size: 6vw;
   font-weight: 900;
-  display: inline-block;
+  display: inline;
   font-style: italic;
   position: relative;
   transition: color 0.3s;;
+}
+
+@media (min-width: 768px) {
+  .cta {
+    border-bottom: 8px solid;
+    font-size: 4vw;
+  }
 }
 
 a.cta:hover {
@@ -206,6 +214,7 @@ a.cta:hover {
 .content {
   margin: 2rem 0;
   margin-left: 2rem;
+  padding-left: 0;
 }
 
 ul.content {
@@ -256,7 +265,7 @@ ul.content li {
   margin: 0;
   padding: 0;
 
-  
+
   justify-content: space-around;
   align-items: center;
 
@@ -278,8 +287,8 @@ ul.content li {
   display: flex;
    flex-direction: row;
    grid-gap: 0;
- } 
- 
+ }
+
  .listreset > a,
  .listreset li {
    margin: 0 2.5rem;
@@ -385,7 +394,7 @@ ul.content li {
 
 @media (min-width: 768px) {
   .bio {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
     align-items: flex-end;
     margin-left: 4rem;
     grid-gap: 50px;
@@ -396,6 +405,7 @@ ul.content li {
   width: 100%;
   display: block;
   margin: 0;
+
 }
 
 .marginTop {
