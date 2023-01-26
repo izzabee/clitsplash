@@ -46,25 +46,25 @@ export default function Exhibitions() {
           </a>
         </div>
       </section>
-      {/* <section className={styles.section}>
-          <a
-            href="https://arium.xyz/spaces/erotika"
-            target="_blank"
-            rel="noopener noreferrer noopener noreferrer"
-            title="go to arium space show in new tab">
-            <figure className={styles.logoimglg}>
-              <Image
-                src="/static/EROTIKA.png"
-                layout="responsive"
-                height={1524}
-                width={4466}
-                alt="Erotika logo"
-              />
-            </figure>
-          </a>
+      <section className={styles.section}>
+        <a
+          href="https://oncyber.io/cubawomenart"
+          target="_blank"
+          rel="noopener noreferrer noopener noreferrer"
+          title="go to oncyber site in new tab">
+          <figure className={styles.logoimglg}>
+            <Image
+              src="/static/cuban-women-art.jpg"
+              layout="responsive"
+              height={1125}
+              width={1120}
+              alt="Erotika logo"
+            />
+          </figure>
+        </a>
 
-          <div className={styles.content}>
-            <h2 className={styles.subheading}>Visions outside of mainstream</h2>
+        <div className={styles.content}>
+          {/* <h2 className={styles.subheading}>Visions outside of mainstream</h2>
             <p className={styles.body}>
               The brainchild of the feminist NFTs collective ClitSplash, the crypto art exhibition EROTIKA: Visions outside the mainstream opens online at Arium Space on November, 29th, 2021, with a series of events that will run through December 8th. The show, which is part of Miami Art Week, features twelve crypto and visual artists from young and emergent to world-renowned.
             </p>
@@ -73,17 +73,17 @@ export default function Exhibitions() {
             </p>
             <p className={styles.body}>
               Featured artists are: Almendra Bertoni, Cesar Saavedra, Cymoonv, Ellen Sheidlin, Jose Nazabal, La Saló, Looping Lovers, Natalie Shau, Ninocence, Sasha Katz, Serwah Attafuah and Yulia Shur.
-            </p>
-            <a
-              className={styles.cta}
-              href="https://arium.xyz/spaces/erotika"
-              target="_blank"
-              rel="noopener noreferrer noopener noreferrer"
-              title="go to arium space show in new tab">
-              <span>view the exhbition</span>
-            </a>
-          </div>
-        </section> */}
+            </p> */}
+          <a
+            className={styles.cta}
+            href="https://oncyber.io/cubawomenart"
+            target="_blank"
+            rel="noopener noreferrer noopener noreferrer"
+            title="go to oncyber site in new tab">
+            <span>view the exhbition</span>
+          </a>
+        </div>
+      </section>
       <section style={{ paddingTop: 50 }}>
         <div className={""}>
           <Social styles={styles} />
