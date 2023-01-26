@@ -18,7 +18,7 @@ export default function About() {
             ClitSplash is a female founded artistic collective that stands for liberation, equal representation and diverse perspectives on human sexuality. We focus on featuring artwork by women, queer, trans and other sex positive minorities. As we seek to curate quality digital art exhibitions and IRL encounters, we advocate their proliferation within the metaverse.
             </p>
           <p className={styles.body}>
-            Clitsplash fosters an 'open metaverse' by showcasing the value of human sexuality in digital culture and curating soundly researched and elaborated art exhibitions. A metaverse that is economically sustainable for artists, able to kindle all sorts of artwork, safe, fair, and inclusive is our mission.
+            Clitsplash fosters an &apos;open metaverse&apos; by showcasing the value of human sexuality in digital culture and curating soundly researched and elaborated art exhibitions. A metaverse that is economically sustainable for artists, able to kindle all sorts of artwork, safe, fair, and inclusive is our mission.
             </p>
           <p className={styles.body}>
             ClitSplash was founded in March 2021 by the art historians and curators Luisa Ausenda and Gladys Garrote.
@@ -115,7 +115,7 @@ export default function About() {
           </div>
           <div className={styles.content}>
             <p className={styles.body}>
-              Art Curator and Author of "How to Create and Sell NFTs, A Guide For All Artists", Tam Gryn specializes in the intersection between art and other industries, new creative economies, crypto for creative communities and satisfying audiences’ desire for new and genuine art experiences through art.
+              Art Curator and Author of &quot;How to Create and Sell NFTs, A Guide For All Artists&quot;, Tam Gryn specializes in the intersection between art and other industries, new creative economies, crypto for creative communities and satisfying audiences’ desire for new and genuine art experiences through art.
               </p>
             <p className={styles.body}>
               Originally from Venezuela, she is a Guest Lecturer at Harvard Business School and New York Academy of the Arts. Tam currently contributes to Decentralized Arts by BanklessDAO and Women in Web3 Equity Miami. She is the former Head of the Curatorial Department of the Artist Pension Trust as well as Head Curator for RAW POP UP and Founder of Culturadora. Tam sits on the board of the Kulturespace Foundation in Berlin. Tam is the former Director of Fine Arts at Rally.io where she helped artists create their own autonomous crypto economies as well as Head Curator at SHOWFIELDS.
