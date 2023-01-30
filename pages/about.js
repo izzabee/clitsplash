@@ -26,6 +26,9 @@ export default function About() {
           <p className={styles.body}>
             Later in 2021, Federica Pogliani joined the team thus adding her expertise in art criticism and Digital Strategy to it.
             </p>
+          <p className={styles.body}>
+            In December 2022, author and curator Tam Gryn also joined ClitSplash.
+            </p>
         </div>
       </section>
 
