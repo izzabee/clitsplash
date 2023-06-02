@@ -3,6 +3,7 @@ import { useState } from 'react'
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
+import Script from 'next/script'
 import styles from '../styles/Home.module.css'
 
 
@@ -74,7 +75,20 @@ function MyApp({ Component, pageProps }) {
       <meta name="twitter:image:width" content="1200" />
       <meta name="twitter:image:height" content="630" />
       <meta name="twitter:image:alt" content="This image contains ClistSplash's logo" />
+      {/* <!-- Google tag (gtag.js) --> */}
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=G-9YXR9QSPB8"
+        strategy="afterInteractive"
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){window.dataLayer.push(arguments);}
+          gtag('js', new Date());
 
+          gtag('config', 'G-9YXR9QSPB8');
+        `}
+      </Script>
     </Head>
 
     <main className={styles.main}>
