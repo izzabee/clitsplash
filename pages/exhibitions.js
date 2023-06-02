@@ -27,17 +27,17 @@ export default function Exhibitions() {
             ClitSplash and Mad Arts Announce Erotika II Pride Festival, June 2-3, Fort Lauderdale FL
             </p>
           <p className={styles.body}>
-            Fort Lauderdale, FL - ClitSplash and Mad Arts are  delighted to announce the upcoming Erotika II Pride Festival, a two-day celebration of digital art and human sexuality taking place on June 2-3, 2023. The festival will be held both in-person at Mad Arts’ headquarters in Fort Lauderdale and in the metaverse, on Spatial, creating a unique and inclusive experience for art lovers and the LGBTQIA+ community.
+            Fort Lauderdale, FL - ClitSplash and Mad Arts are  delighted to announce the upcoming Erotika II Pride Festival, a two-day celebration of digital art and human sexuality taking place on June 2-3, 2023. The festival will be held both in-person at Mad Arts&apos; headquarters in Fort Lauderdale and in the metaverse, on Spatial, creating a unique and inclusive experience for art lovers and the LGBTQIA+ community.
             </p>
           <p className={styles.body}>
             The festival will feature a diverse lineup of over 20  participating artists, including Harriet Blend, Lana Denina, chaallka, Olga Fedorova, Katie McIntyre, Vestica Mariah, yuyu, jason beyer, luluxxx, Oona, Sasha Katz, Cymoonv, Dolce Paganne, Ras Alhagve, ninocence, and more. The artists hail from all over the world and bring their progressive perspectives on human sexuality and the queer experience to the festival.
             </p>
 
           <p className={styles.body}>
-            Erotika II Pride Festival is a continuation of ClitSplash's commitment to promoting equal representation, diverse perspectives, and liberation for all. The Festival aims to foster an 'open metaverse' that showcases the value of uncensored human sexuality in digital culture, while advocating for a metaverse that is safe, fair, inclusive and economically sustainable for artists.
+            Erotika II Pride Festival is a continuation of ClitSplash&apos;s commitment to promoting equal representation, diverse perspectives, and liberation for all. The Festival aims to foster an &apos;open metaverse&apos; that showcases the value of uncensored human sexuality in digital culture, while advocating for a metaverse that is safe, fair, inclusive and economically sustainable for artists.
             </p>
           <p className={styles.body}>
-            "We are thrilled to host the Erotika II Pride Festival and provide a space for under-represented artists, the queer community and art lovers to come together and celebrate PRIDE as well as sexual freedom," said Luisa Ausenda and Gladys Garrote, co-founders of ClitSplash. "Our goal is to promote acceptance, understanding, and love through the power of art, and we are excited to showcase the incredible work of so many talented artists."
+            &quot;We are thrilled to host the Erotika II Pride Festival and provide a space for under-represented artists, the queer community and art lovers to come together and celebrate PRIDE as well as sexual freedom,&quot; said Luisa Ausenda and Gladys Garrote, co-founders of ClitSplash. &quot;Our goal is to promote acceptance, understanding, and love through the power of art, and we are excited to showcase the incredible work of so many talented artists.&quot;
             </p>
           <br />
           <h3 className={styles.subheading}>CURATORIAL STATEMENT</h3>
@@ -45,10 +45,10 @@ export default function Exhibitions() {
             Erotic pleasure has been a recurring theme throughout the history of artistic representation. Fantasies, libido, and obsessions have unleashed an infinite repertoire of images and expressions of identity. However, the supremacy of heteronormative and patriarchal thought in Western art has primarily legitimized what is known as the male gaze. This has anchored eroticism in art history to a masculine vision that almost always represents an object of desire that is feminine and passive. However, LGBTQ+ artists have played a significant role in expanding our understanding of eroticism and identity.
           </p>
           <p className={styles.body}>
-            In recognition of this, ClitSplash's exhibition series "EROTIKA" invites LGBTQ+ artists and audiences to challenge the dominant perspective and offer alternative viewpoints. Through a diverse range of LGBTQ+ artists and expressions, the exhibition celebrates the community's diversity of identities and explores the potential of digital art and the metaverse as a space for non-mainstream erotic artworks to flourish.
+            In recognition of this, ClitSplash&apos;s exhibition series &quot;EROTIKA&quot; invites LGBTQ+ artists and audiences to challenge the dominant perspective and offer alternative viewpoints. Through a diverse range of LGBTQ+ artists and expressions, the exhibition celebrates the community&apos;s diversity of identities and explores the potential of digital art and the metaverse as a space for non-mainstream erotic artworks to flourish.
           </p>
           <p className={styles.body}>
-            The metaverse and digital art provide unique opportunities for individuals to express themselves freely and explore their identities without fear of persecution. These mediums offer a space for artists to push boundaries and challenge dominant perspectives, leading the way toward a more inclusive and accepting world. By showcasing the works of LGBTQ+ artists in the digital art world, "EROTIKA" reclaims what is often marginalized from a heteronormative perspective and celebrates the diversity of expressions and identities within the community. As we celebrate Pride Month, it is crucial to recognize the role of the metaverse and digital art in promoting LGBTQ+ visibility, acceptance, and equality.
+            The metaverse and digital art provide unique opportunities for individuals to express themselves freely and explore their identities without fear of persecution. These mediums offer a space for artists to push boundaries and challenge dominant perspectives, leading the way toward a more inclusive and accepting world. By showcasing the works of LGBTQ+ artists in the digital art world, &quot;EROTIKA&quot; reclaims what is often marginalized from a heteronormative perspective and celebrates the diversity of expressions and identities within the community. As we celebrate Pride Month, it is crucial to recognize the role of the metaverse and digital art in promoting LGBTQ+ visibility, acceptance, and equality.
           </p>
           <br />
           <br />
@@ -174,7 +174,7 @@ export default function Exhibitions() {
                 Brittany Brave
               </p>
               <p className={styles.bodySm}>
-                Voted Miami’s best comedian, Brittany Brave will host a hyper feminist comedy set including Satisfyer vibrator giveaway
+                Voted Miami&apos;s best comedian, Brittany Brave will host a hyper feminist comedy set including Satisfyer vibrator giveaway
               </p>
               <p className={styles.bodySm}>
                 <strong>21:00</strong>
@@ -419,7 +419,7 @@ export default function Exhibitions() {
             The brainchild of the feminist NFTs collective ClitSplash, the crypto art exhibition EROTIKA: Visions outside the mainstream opens online at Arium Space on November, 29th, 2021, with a series of events that will run through December 8th. The show, which is part of Miami Art Week, features twelve crypto and visual artists from young and emergent to world-renowned.
             </p>
           <p className={styles.body}>
-            Scarcity of censorship and prejudices within the crypto realm yielded an interesting abundance of erotic art in the metaverse. Drawing from this particular characteristic, and elaborating on it, through EROTIKA ClitSplash aims at overcoming erotic art’s mainstream. By shining a spotlight on artists with different approaches to erotic art, perspectives other than those that usually saturate this category will emerge and open the field to new narratives.
+            Scarcity of censorship and prejudices within the crypto realm yielded an interesting abundance of erotic art in the metaverse. Drawing from this particular characteristic, and elaborating on it, through EROTIKA ClitSplash aims at overcoming erotic art&apos;s mainstream. By shining a spotlight on artists with different approaches to erotic art, perspectives other than those that usually saturate this category will emerge and open the field to new narratives.
             </p>
           <p className={styles.body}>
             Featured artists are: Almendra Bertoni, Cesar Saavedra, Cymoonv, Ellen Sheidlin, Jose Nazabal, La Saló, Looping Lovers, Natalie Shau, Ninocence, Sasha Katz, Serwah Attafuah and Yulia Shur.
@@ -457,7 +457,7 @@ export default function Exhibitions() {
               The brainchild of the feminist NFTs collective ClitSplash, the crypto art exhibition EROTIKA: Visions outside the mainstream opens online at Arium Space on November, 29th, 2021, with a series of events that will run through December 8th. The show, which is part of Miami Art Week, features twelve crypto and visual artists from young and emergent to world-renowned.
             </p>
             <p className={styles.body}>
-              Scarcity of censorship and prejudices within the crypto realm yielded an interesting abundance of erotic art in the metaverse. Drawing from this particular characteristic, and elaborating on it, through EROTIKA ClitSplash aims at overcoming erotic art’s mainstream. By shining a spotlight on artists with different approaches to erotic art, perspectives other than those that usually saturate this category will emerge and open the field to new narratives.
+              Scarcity of censorship and prejudices within the crypto realm yielded an interesting abundance of erotic art in the metaverse. Drawing from this particular characteristic, and elaborating on it, through EROTIKA ClitSplash aims at overcoming erotic art&apos;s mainstream. By shining a spotlight on artists with different approaches to erotic art, perspectives other than those that usually saturate this category will emerge and open the field to new narratives.
             </p>
             <p className={styles.body}>
               Featured artists are: Almendra Bertoni, Cesar Saavedra, Cymoonv, Ellen Sheidlin, Jose Nazabal, La Saló, Looping Lovers, Natalie Shau, Ninocence, Sasha Katz, Serwah Attafuah and Yulia Shur.

@@ -75,21 +75,21 @@ function MyApp({ Component, pageProps }) {
       <meta name="twitter:image:width" content="1200" />
       <meta name="twitter:image:height" content="630" />
       <meta name="twitter:image:alt" content="This image contains ClistSplash's logo" />
-      {/* <!-- Google tag (gtag.js) --> */}
-      <Script
-        src="https://www.googletagmanager.com/gtag/js?id=G-9YXR9QSPB8"
-        strategy="afterInteractive"
-      />
-      <Script id="google-analytics" strategy="afterInteractive">
-        {`
+    </Head>
+    {/* <!-- Google tag (gtag.js) --> */}
+    <Script
+      src="https://www.googletagmanager.com/gtag/js?id=G-9YXR9QSPB8"
+      strategy="afterInteractive"
+    />
+    <Script id="google-analytics" strategy="afterInteractive">
+      {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){window.dataLayer.push(arguments);}
           gtag('js', new Date());
 
           gtag('config', 'G-9YXR9QSPB8');
         `}
-      </Script>
-    </Head>
+    </Script>
 
     <main className={styles.main}>
       <nav className={styles.nav}>
