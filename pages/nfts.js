@@ -1,13 +1,12 @@
 import styles from '../styles/Home.module.css'
-
 import Social from "components/social"
 
-export default function Sales() {
+export default function Nfts() {
   return (
     <>
 
       <header className={styles.logohead}>
-        <h1 className={styles.logo}>Sales</h1>
+        <h1 className={styles.logo}>NFTs</h1>
       </header>
 
 
@@ -41,7 +40,7 @@ export default function Sales() {
               target="_blank"
               rel="noopener noreferrer noopener noreferrer"
               title="go to social in new tab">
-              Foundation
+              Foundation World (EROTIKA II)
               </a>
           </li>
         </ul>

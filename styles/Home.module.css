@@ -207,6 +207,12 @@ a.cta:hover {
   line-height: var(--line-subhead);
 }
 
+.bodySm {
+  font-size: var(--size-body);
+  line-height: var(--line-body);
+  max-width: 500px;
+}
+
 .center {
   text-align: center;
 }
@@ -415,4 +421,10 @@ ul.content li {
 .bgPurple {
   background-color: var(--purple);
   color: var(--white);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
 }

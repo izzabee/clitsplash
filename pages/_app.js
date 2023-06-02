@@ -5,6 +5,8 @@ import Image from 'next/image'
 import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 
+
+
 const data = [
   {
     title: "Home",
@@ -15,8 +17,8 @@ const data = [
     id: "/exhibitions"
   },
   {
-    title: "Sales",
-    id: "/sales"
+    title: "NFTs",
+    id: "/nfts"
   },
   {
     title: "Press",

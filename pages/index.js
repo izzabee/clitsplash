@@ -14,9 +14,20 @@ export default function Home() {
           {/* <span>Drop of the month</span> */}
           <span>Coming Soon</span>
         </h2>
+        <figure className={styles.logoimglg}>
+          <Image
+            src="/static/erotika2fest.jpg"
+            layout="responsive"
+            height={1080}
+            width={1080}
+            alt="Erotika II logo"
+          />
+        </figure>
         <h3 className={`${styles.body} ${styles.centered}`}>
           {/* <span>Drop of the month</span> */}
-          <span>ClitSplash Festival</span>
+          <span>June 2 and 3, 2023 – MadArts (Fort Lauderdale, FL)</span>
+          <br />
+          <strong>EROTIKA II Pride Festival</strong>
         </h3>
       </section>
       <section className={styles.section}>
